@@ -19,13 +19,13 @@ body {
 }
 
 .left {
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
 }
 
 .right {
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
 }
 
 .header {
@@ -124,7 +124,7 @@ a:hover {
     -webkit-transition: color 0.2s;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
     .flex-container {
         margin: 5%;
         flex-direction: column;
