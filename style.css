@@ -1,0 +1,123 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#333;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 80%;
+    height: 40%;
+    margin: 10%;
+}
+
+.flex-item {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}
+
+.left {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.right {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    flex-direction: column;
+}
+
+.color-tile {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-color: #000;
+    text-decoration: none;
+}
+
+.description-tile {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.description-tile a {
+    color: #888;
+}
+
+.color-tile a {
+	color: #fff;
+}
+
+.description-tile a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+.tile1 {
+    background-color: #F15A5A;
+}
+
+.tile2 {
+    background-color: #F0C419;
+}
+
+.tile3 {
+    background-color: #4EBA6F;
+}
+
+.tile4 {
+    background-color: #2D95BF;
+}
+
+.tile5 {
+    background-color: #955BA5;
+}
+
+.tile6 {
+    background-color: #F15A5A;
+}
+
+.tile7 {
+    background-color: #F0C419;
+}
+
+.tile8 {
+    background-color: #4EBA6F;
+}
+
+.tile9 {
+    background-color: #2D95BF;
+}
+
+.tile10 {
+    background-color: #955BA5;
+}
+
+.tag {
+    background: #eee;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
