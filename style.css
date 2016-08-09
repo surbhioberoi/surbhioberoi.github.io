@@ -4,14 +4,14 @@ body {
     background-color: #FBFBFB
 }
 
-h3, p {
-	font-size:22px;
+h3,
+p {
+    font-size: 22px;
 }
 
 h1 {
-	font-size:32px;
+    font-size: 32px;
 }
-
 
 .flex-container {
     display: -webkit-flex;
@@ -60,12 +60,11 @@ h1 {
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 a {
-	text-decoration: none;
-	color:#333;
+    text-decoration: none;
+    color: #333;
 }
 
 a:hover {
