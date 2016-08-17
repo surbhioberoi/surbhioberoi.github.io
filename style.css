@@ -1,7 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #333;
-    background-color: #FBFBFB
+    background-color: #FBFBFB;
 }
 
 h3,
@@ -163,7 +163,7 @@ a {
 
 @media only screen and (max-device-width: 768px) {
     .flex-container {
-        margin: 5%;
+        margin: 10%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
